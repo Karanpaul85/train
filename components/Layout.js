@@ -33,8 +33,8 @@ export default function Layout({ children }) {
         <meta name="twitter:card" content="summary" />
         <meta property="og:image:width" content="1500" />
         <meta property="og:image:height" content="786" />
-        <meta property="og:image" content="/assets/icon.png" />
-        <meta name="twitter:image" content="/assets/icon.png" />
+        <meta property="og:image" content="./assets/icon.png" />
+        <meta name="twitter:image" content="./assets/icon.png" />
         <meta name="theme-color" content="#07007a" />
         <title>Welcome to my website</title>
         <meta

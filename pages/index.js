@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>IRCTC Enquiry</title>
         <meta name="description" content="IRCTC Enquiry" />
-        <meta name="keywords" content="Hindi news" />
+        <meta name="keywords" content="IRCTC Enquiry" />
       </Head>
       <div className="wrapper">
         <div className="container">
