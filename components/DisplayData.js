@@ -1,5 +1,4 @@
 import styles from '../styles/displaydata.module.css';
-import Image from 'next/Image';
 import Logo from '../public/assets/icon.png';
 const DisplayData = ({ data }) => {
   const previousStations = () => {
@@ -59,7 +58,7 @@ const DisplayData = ({ data }) => {
           item.type === 1 && (
             <tr key={item.type}>
               <td>
-                <Image src={Logo} alt="IRCTC Enquiry" width={20} height={20} />
+                <img src={Logo} alt="IRCTC Enquiry" width={20} height={20} />
               </td>
               <td colSpan={4}>{item.readable_message}</td>
             </tr>
