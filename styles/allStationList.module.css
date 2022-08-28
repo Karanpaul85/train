@@ -49,5 +49,9 @@
 @media (max-width: 480px) {
   .suggestionPopupInner {
     height: 100%;
+    position: fixed;
+  }
+  .listSection {
+    max-height: calc(100% - 40px);
   }
 }
