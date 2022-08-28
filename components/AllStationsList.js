@@ -66,6 +66,7 @@ const AllStationsList = ({
       }
     }
   };
+
   return (
     <div className={styles.suggestionPopup}>
       <div className={styles.suggestionPopupInner}>
