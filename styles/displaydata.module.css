@@ -1,0 +1,64 @@
+.trainINfo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.trainINfo table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.trainINfo table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.red {
+  color: #e53333 !important;
+}
+.green {
+  color: #187f06 !important;
+}
+.infoHeading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #a7d7a7;
+  padding: 7px;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 500;
+  flex-wrap: wrap;
+}
+.message {
+  padding: 7px;
+  border: 1px solid #d5d5d5;
+}
+.trainNumber,
+.trainNameNStations {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.trainNumber span,
+.trainNameNStations div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.trainNameNStations div {
+  text-align: right;
+}
+.runningDays {
+  width: 100%;
+  margin-top: 7px;
+}
+.allStatus {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border-left: 1px solid #d5d5d5;
+  border-right: 1px solid #d5d5d5;
+}

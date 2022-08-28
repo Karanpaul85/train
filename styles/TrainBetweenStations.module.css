@@ -1,0 +1,41 @@
+.trainINfo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.singleInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d5d5d5;
+  margin-top: -1px;
+}
+.trainHeading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 7px;
+  background: #f1f1f1;
+}
+.trainNo,
+.trainName {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.trainName {
+  text-align: right;
+}
+.singleInfo span {
+  font-weight: 500;
+}
+.trainOtherInfo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.infoSec {
+  width: 100%;
+  padding: 7px;
+}

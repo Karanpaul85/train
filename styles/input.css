@@ -1,0 +1,19 @@
+input {
+  padding: 10px 15px;
+  border: 1px solid #d5d5d5;
+}
+input[type='submit'] {
+  min-width: 100px;
+  text-transform: uppercase;
+  margin-left: -1px;
+  color: #fff;
+  background: #ff9212;
+  border: 1px solid #ff9212;
+  cursor: pointer;
+  width: 100%;
+  max-width: 130px;
+  margin-top: 15px;
+}
+input.error {
+  border: 1px solid #e53333 !important;
+}

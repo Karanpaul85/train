@@ -1,0 +1,40 @@
+.homeCard {
+  width: 50.1%;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #d5d5d5;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+.homeCard span {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 0;
+}
+.homeCard:nth-last-of-type(-n + 2) {
+  margin-bottom: 0;
+}
+.lottie {
+  position: relative;
+}
+.lottieSec {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+.lottieSec > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media (max-width: 480px) {
+  .homeCard {
+    width: 50.2%;
+  }
+}

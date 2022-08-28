@@ -14,7 +14,80 @@ a {
 * {
   box-sizing: border-box;
 }
+p {
+  margin: 0 0 15px;
+  line-height: 1.5;
+}
+.wrapper {
+  padding: 0 40px;
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+.container {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+main {
+  min-height: calc(100vh - 110px);
+}
+.trainRoutes {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+.trainRoutes td,
+.trainRoutes th {
+  border: 1px solid #ddd;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+.trainRoutes tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.trainRoutes tr:hover {
+  background-color: #ddd;
+}
+
+.trainRoutes th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+.high {
+  color: #298f29;
+  font-weight: bold;
+}
+.med {
+  color: #ff9212;
+  font-weight: bold;
+}
+.low {
+  color: #e53333;
+  font-weight: bold;
+}
+select.error {
+  border: 1px solid #e53333 !important;
+}
+@media (max-width: 640px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+  .container {
+    padding: 20px 0;
+  }
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

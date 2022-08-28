@@ -1,0 +1,19 @@
+.storePNR {
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.train {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-weight: 500;
+}
