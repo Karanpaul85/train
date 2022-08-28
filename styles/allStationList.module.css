@@ -51,9 +51,17 @@
     height: 100%;
     position: fixed;
   }
-  .listSection {
-    max-height: calc(100% - 40px);
+  .searchInputs {
+    position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .listSection {
+    max-height: calc(100% - 40px);
+    top: 36px;
+    left: 0;
+    position: relative;
   }
 }
