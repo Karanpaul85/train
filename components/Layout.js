@@ -9,6 +9,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
+        <link rel="manifest" href="/manifest.json" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -26,7 +27,6 @@ export default function Layout({ children }) {
           sizes="16x16"
           href="./assets/favicon-16x16.png"
         />
-        <link rel="manifest" href="./assets/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="IRCTC" />

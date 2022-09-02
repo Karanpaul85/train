@@ -1,7 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const withPWA = require('next-pwa')({
+  dest: 'public',
+});
+module.exports = withPWA({
   reactStrictMode: true,
-  swcMinify: true,
   i18n: {
     locales: ['en'],
     defaultLocale: 'en',
@@ -11,6 +12,4 @@ const nextConfig = {
     apiKey: '85768926f4msh834848b433540d7p1ec315jsnbc178347bb2a',
     apiHost: 'irctc1.p.rapidapi.com',
   },
-};
-
-module.exports = nextConfig;
+});
