@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Navbar from './Header';
+import Header from './Header';
 import Footer from './Footer';
 import { useRouter } from 'next/router';
 
@@ -35,14 +35,13 @@ export default function Layout({ children }) {
         <meta property="og:image:height" content="786" />
         <meta property="og:image" content="./assets/icon.png" />
         <meta name="twitter:image" content="./assets/icon.png" />
-        <meta name="theme-color" content="#07007a" />
         <title>Welcome to my website</title>
         <meta
           name="keywords"
           content="Hindi news, हिंदी न्यूज़ , Hindi Samachar, हिंदी समाचार, Latest News in Hindi, Breaking News in Hindi, ताजा ख़बरें, KP News"
         />
       </Head>
-      {router.pathname !== '/404' && <Navbar />}
+      {router.pathname !== '/404' && <Header />}
       <main>{children}</main>
       {router.pathname !== '/404' && <Footer />}
     </>
